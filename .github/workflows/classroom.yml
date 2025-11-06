@@ -42,20 +42,4 @@ jobs:
         TEST1_RESULTS: "${{steps.test1.outputs.result}}"
       with:
         runners: test0,test1
-        
-# divisors.py
-# Lab10: Get divisors
 
-import sys
-
-# 명령줄에서 숫자 입력 받기
-n = int(sys.argv[1])
-
-# 약수 구하기
-divisors = []
-for i in range(1, n + 1):
-    if n % i == 0:
-        divisors.append(i)
-
-# 약수를 공백으로 구분하여 한 줄로 출력
-print(*divisors)
