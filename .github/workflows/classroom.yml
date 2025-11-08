@@ -42,10 +42,6 @@ jobs:
         TEST1_RESULTS: "${{steps.test1.outputs.result}}"
       with:
         runners: test0,test1
-
-import sys
-number = int(sys.argv[1])
-
 range(1, number + 1):
 number % i == 0:
-87
+1
