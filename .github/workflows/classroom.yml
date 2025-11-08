@@ -44,4 +44,4 @@ jobs:
         runners: test0,test1
         
 for i in range(1, number + 1):
-if (number % i == 0)
+if (number % i == 0):
